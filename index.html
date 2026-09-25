@@ -1,141 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to Sign APKs with Uber APK Signer</title>
-    <style>
-        :root {
-            --bg-color: #f4f7f6;
-            --card-bg: #ffffff;
-            --text-color: #333333;
-            --accent-color: #007acc;
-            --code-bg: #1e1e1e;
-            --code-text: #d4d4d4;
-        }
+<meta charset="UTF-8">
+<title>Game Modding Guide</title>
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-            margin: 0;
-            padding: 40px 20px;
-            display: flex;
-            justify-content: center;
-        }
+<style>
+body{
+    background:#111;
+    color:white;
+    font-family:Segoe UI,Arial,sans-serif;
+    margin:40px;
+    line-height:1.7;
+}
 
-        .container {
-            max-width: 650px;
-            width: 100%;
-            background: var(--card-bg);
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-        }
+h1{
+    color:#00ffa2;
+    border-bottom:2px solid #333;
+}
 
-        h1 {
-            font-size: 1.8rem;
-            margin-top: 0;
-            color: #111;
-        }
+h2{
+    color:#81D4FA;
+    margin-top:40px;
+}
 
-        p {
-            margin-bottom: 20px;
-            color: #555;
-        }
+.section{
+    background:#1b1b1b;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:25px;
+}
 
-        .instruction-step {
-            font-weight: 600;
-            color: var(--accent-color);
-            text-transform: uppercase;
-            font-size: 0.85rem;
-            letter-spacing: 0.5px;
-            margin-bottom: 5px;
-            display: block;
-        }
+a.button{
+    display:inline-block;
+    background:#2196F3;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:8px;
+    margin-top:10px;
+}
 
-        .code-container {
-            position: relative;
-            background-color: var(--code-bg);
-            border-radius: 6px;
-            padding: 15px;
-            margin-top: 10px;
-            overflow-x: auto;
-        }
+a.button:hover{
+    background:#42A5F5;
+}
 
-        code {
-            font-family: "Consolas", "Courier New", Courier, monospace;
-            color: var(--code-text);
-            font-size: 0.95rem;
-            white-space: pre;
-            display: block;
-            padding-right: 60px; /* Space for the button */
-        }
+code{
+    background:#333;
+    padding:3px 6px;
+    border-radius:5px;
+}
 
-        .copy-btn {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background-color: rgba(255, 255, 255, 0.15);
-            color: #ffffff;
-            border: none;
-            padding: 6px 12px;
-            font-size: 0.8rem;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background 0.2s, transform 0.1s;
-        }
+.note{
+    color:#FFD54F;
+}
 
-        .copy-btn:hover {
-            background-color: rgba(255, 255, 255, 0.25);
-        }
+.warning{
+    color:#FF8A80;
+    font-weight:bold;
+}
 
-        .copy-btn:active {
-            transform: scale(0.95);
-        }
+.disclaimer{
+    background:#1b1b1b;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:25px;
+    color:#ffa6fb;
+}
+</style>
 
-        .hint {
-            font-size: 0.85rem;
-            color: #777;
-            margin-top: 15px;
-            font-style: italic;
-        }
-    </style>
 </head>
+
+
+
+
+
+
 <body>
 
-<div class="container">
-    <span class="instruction-step">Instructions</span>
-    <h1>How to Sign Your APK</h1>
-    <p>Open your Windows Command Prompt (cmd) and run the following absolute path command to sign your package using the utility tool:</p>
+<h1>Among Us in Virtual Machine</h1>
 
-    <div class="code-container">
-        <button class="copy-btn" onclick="copyCommand()">Copy</button>
-        <code id="cmd-text">java -jar "D:\LABORATORY\Packages\.windows\.Utilities\uber-apk-signer\uber-apk-signer-1.3.0.jar" --apks "path\to\your\app.apk"</code>
-    </div>
+<h2>Installing VM using Virtual Master</h2>
 
-    <p class="hint">Note: Remember to replace <code>path\to\your\app.apk</code> with the actual location of the APK file you intend to sign.</p>
+<p class="disclaimer">
+Disclaimer: This is just an HTML file you downloaded into your phone. You can check the contents by converting to text, it's just meant to help my friends. 😊 <br> Requirements: Above 4 GB RAM, About 3-4 GB space free, A spare G-Mail ID meant only for experiments, Data cost ~ 1.8 GB
+</p>
+
+<div class="section">
+
+<h2>Installing VM</h2>
+
+<ol>
+
+<li><a class="button" href="https://play.google.com/store/apps/details?id=com.clone.android.dual.space">Install AVM</a>
+<li><b>Enable Developer Options:</b></li>
+Open settings app ▶️ Scroll down to <b>About Phone</b> ▶️ <b>Software Information</b> ▶️ Click <b>Build Number</b> 7 times ▶️ Allow Developer Mode.
+<li>Memory = Smoothness of running VM:</li>
+Open settings app ▶️ Scroll down to <b>Developer Mode</b> ▶️ Note your <b>RAM</b> (<b>Memory</b>): Larger memory = Lower lagging = More apps can be run simultaneously (Best if > 4 GB total, since VM's take up huge Memory).
+
+<li>DCPR:</li>
+Inside <b>Developer Options</b> page ▶️ Scroll much down to <b>Disable child process restrictions</b> ▶️ Enable the option.
+
+<li>Battery:</li>Settings ▶️ Search and open <b>Optimise Battery Usage</b> ▶️ Set Filter to <b>All</b> ▶️ Scroll down to <b>Virtual Master</b> ▶️ Toggle off.
+
+<li>Install ROM:</li>Open AVM ▶️ Create VM ▶️ Select and Download ROM 9.0.0 64 bit (about 400 MB) In-App ▶️ After download, select that ROM ▶️ Next ▶️ Resolution: Default Portrait ▶️ Name and Complete
+
+</ol>
+
 </div>
 
-<script>
-    function copyCommand() {
-        const commandText = document.getElementById('cmd-text').innerText;
-        const button = document.querySelector('.copy-btn');
-        
-        navigator.clipboard.writeText(commandText).then(() => {
-            button.innerText = 'Copied!';
-            button.style.backgroundColor = '#28a745'; // Green success color
-            
-            setTimeout(() => {
-                button.innerText = 'Copy';
-                button.style.backgroundColor = 'rgba(255, 255, 255, 0.15)';
-            }, 2000);
-        }).catch(err => {
-            console.error('Failed to copy text: ', err);
-        });
-    }
-</script>
+<div class="section">
+
+<h2>Initialize VM</h2>
+
+<ol>
+
+<li>Spare G-Mail Account:<li>Create a spare Google account, optionally make it "un-suspicious" by giving it genuine-looking details such as age 22, a common name, etc. Nationality may be kept same, because IP address should point to same location.
+
+<li>AVM ▶️ Launch the VM: First time Boot ▶️ </li>
+
+<li>Enable Google Services:</li> Inside VM ▶️ App Screen ▶️ <b>VM Settings</b> ▶️ (Topmost) Enable Google ▶️ VM should restart.
+
+<li>Install Play Games:</li> After Restart, inside VM ▶️ App Screen ▶️ New app <b>Play Store</b>, open ▶️ Login using spare Google account ▶️ Search and check if <b>Google Play Services</b> is updating / updated to latest version ▶️ After it's updated, install Play Games.
+
+<li>Login to Play Games using the spare account ▶️ Create a brand new Play Games account.</li>
+</ol>
+
+</div>
+
+<div class="section">
+
+<h2>Game Modding</h2>
+
+<ol>
+
+<li>Add game to VM: ℹℹℹ</li>
+AVM ▶️ App Screen ▶️ Add Apps ▶️ Import Among Us (AU in host phone should be updated to latest version, as described <a href="https://play.google.com/store/apps/details?id=com.innersloth.spacemafia">Here in Play Store</a>.
+
+<li>Register new Among Us account:</li> Open Among Us, register the new spare G-Mail account into Innersloth, give an age above 18, and check that the account is successfully created.
+
+<li>Download PP:The following is not a download link. It redirects you to the shared folder. Therein download the PP apk from 3-dot menu of the apk file.</li><a class="button" href="https://drive.google.com/drive/folders/1lVJwxK1MLgUIvBcUuF58YI9rkUQzsRVC">
+Polar Patcher APK
+</a>
+
+<li>Play Store ▶️ Profile / Settings ▶️ Play Protect ▶️ Turn it off completely.</li>
+
+<li>Install PP:</li>AVM ▶️ Add Files ▶️ Browse to the path "Internal Storage/Download/Polar Patcher_v1.0.apk" ▶️ Select and import it ▶️ It will be auto-installed after being downloaded into the VM.
+
+<li>Finished. Start using PP following its own instructions.</li>
+
+</ol>
+
+</div>
+
+<div class="section">
+<h2>Add-Ons ℹℹℹ</h2>
+If you feel like you want another layer of mods, then delete the official Among Us app that you imported into your VM, and instead download and install Unsigned APK from either aadilmods.com or platinmods.com and use that as the base app on which PP will hook to during runtime. Unlike PP, their mods are menus that are by default part of game itself.. Unsigned apks do not automatically install on any OS, while signed apks won't let you login the second the time in Aadil Mod or even the first time in Axey (Platinmod) Mod. Compare latest version features of both mods and download the APK as per your need. Here are the two pages as of June. <color="#FF0000>It is recommended that you install all these directly inside the VM, but do not install in personal phone.</color>. Also it is recommended to first install the next two files: Magisk and PMPatchFull, because seeing an apk being downloaded the VM will try to auto install but throw errors in absence of signature.<br>
+<a class="button" href="https://platinmods.com/threads/among-us-ver-2026-6-5-mod-menu-apk-see-player-roles-fake-role-esp-kill-players-close-all-doors-no-clip.128826/">
+Platinmods Page
+</a>
+<a class="button" href="https://mods.aadilmods.com/posts/amongus">
+Aadilmods page
+</a><br>
+<p class="note">
+(<b>Note:</b> Some pages may throw unnecessary redirects and may not install at all, in that case you already have Magisk and PmPatchFull below... So try to ask someone for unsigned Aadil apk. For Platinmod, you need to make an account (use spare G-Mail) on their website, and like the post to unveil the download link.)
+</p>
+<br>
+For both, you need to install Magisk into the VM to root it (it will restart) and then a module called PMPatch that disables signature verification for that Android (because above mods are unsigned). Do not by mistake install (download is fine) Magisk into personal phone. First get both the following files into your VM. (In the default file manager you can view Internal Storage using the menu option on top.)<br>
+<a class="button" href="https://github.com/topjohnwu/magisk/releases">
+Magisk_vXX.x.apk
+</a>
+<a class="button" href="https://github.com/vova7878-modules/PMPatch/releases">
+PMPatchFull.zip
+</a>
+<br>
+Install Magisk INSIDE VM (not in personal profile) ▶️ Restarts ▶️ from Play Store, <a href="https://play.google.com/store/apps/details?id=com.joeykrim.rootcheck">Install Root Checker</a> inside VM ▶️ Open it ▶️ Instantly allow it Root Access in the popup that comes for 8 seconds ▶️ It should say Root is successful.<br>
+In Magisk ▶️ Home ▶️ Settings (top right) ▶️ Enable Zygisk ▶️ Back to Home ▶️ Under Magisk Header, it should say Installed (and a string), Zygisk Yes, Ramdisk Yes. ▶️ Go to Modules Tab ▶️ Activate PMPatchFull Module by browsing to that .zip file.<br>
+Finally navigate to the mod apk file, install it normally using Package Installer.<br>
+Now open the app, login optionally (or mandatorily in case you haven't registered yet), to see its mod menu. However, use PP mod menu, and you now have double layered mod.
+</div>
+<div class="section">
+
+<h2>Notes</h2>
+
+<p class="note">
+You may install MT Manager for convenient handling of files.<br>
+</p>
+<p class="warning">
+Always use a spare Google account.<br>
+From now on, such a VM (maybe another that's not rooted, because some processes detect root and ban) should become the home of all experiments that are unsafe on personal profile.<br>
+Do NOT install experimental APKs on your personal phone, download is fine (generally).<br>
+Do NEVER install magisk into original phone, as it voids warranty.
+</p>
+
+</div>
 
 </body>
 </html>
